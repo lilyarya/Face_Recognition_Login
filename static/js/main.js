@@ -10,14 +10,15 @@ submitInput.onclick = login;
 urlInput.value = "";
 urlInput.setAttribute("accept", "image/png");
 labels[1].hidden = "hidden";
-emailInput.setAttribute("placeholder", "Email");
+emailInput.setAttribute("placeholder", "User ID");
 urlInput.setAttribute("placeholder", "URL");
 
 urlInput.hidden = "hidden"
+
 var localMediaStream = null;
 var constraints = {
     video: {
-        width: { max: 960 },
+        width: { max: 1280 },
         height: { max: 720 }
     },
     audio: false
