@@ -26,6 +26,6 @@
 </ol>
 <h2>Usage</h2>
 <ul>
-<li><b>Homepage:</b> Go to link: https://try-face-rec-login.herokuapp.com/</li>  
+<li><b>Homepage:</b> Go to link: https://face-recognition-login-arya.herokuapp.com/</li>  
 </ul>
 Please note: <i>I have not used data validation on email so if you want you can add it in your program. Otherwise please enter email with caution.</i>
