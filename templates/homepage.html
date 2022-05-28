@@ -35,7 +35,7 @@
         opacity: 1;
       }
       .main-body {
-        height: 100vh !important;
+        height: 100vh !important;  /*important indicates this property needs to be implemented irrespective of parent behavior*/
       }
       .main-body .container {
         max-width: 100vw !important;
@@ -49,7 +49,7 @@
           ),
           url(https://images.pexels.com/photos/4069291/pexels-photo-4069291.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center;  /*setting background url*/
         background-size: cover;
       }
       .container .right {
@@ -78,7 +78,7 @@
         padding: 10px 40px;
         text-align: center;
         border: none;
-        transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+        transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1); /*setting transition effects on button*/
       }
       .container .right button:hover {
         background-color: #069a8e;
@@ -89,10 +89,8 @@
   <body class="main-body fadein" onload="document.body.className += ' loaded';">
     <div class="container mx-0 px-0 h-100">
       <div class="row w-100 h-100 gx-0">
-        <div class="col col-lg-9 col-sm-12 col-12 left">
-          <div
-            class="text-container d-flex flex-column justify-content-end w-100 h-100"
-          >
+        <div class="col col-lg-9 col-sm-12 col-12 left"> <!--using bootstrap classes-->
+          <div class="text-container d-flex flex-column justify-content-end w-100 h-100"> <!--using flex layout properties-->
             <div class="p-5 mb-5">
               <h1 class="text-capitalize">
                 Login / Register system using Face Recognition
@@ -105,9 +103,7 @@
           </div>
         </div>
         <div class="col col-lg-3 col-sm-12 col-12 right">
-          <div
-            class="d-flex w-100 h-100 flex-column justify-content-center p-5"
-          >
+          <div class="d-flex w-100 h-100 flex-column justify-content-center p-5">
             <div class="w-100 text-left">
               <h4>Hi <span>there</span>!</h4>
             </div>  
@@ -126,7 +122,7 @@
     </div>
     <script>
       window.onload = function () {
-        document.body.className += " loaded";
+        document.body.className += " loaded";   //waiting for the window to load to execute the function.
       };
     </script>
   </body>
