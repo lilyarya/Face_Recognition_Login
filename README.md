@@ -9,6 +9,7 @@
 <li><b>JavaScript</b>  create dynamic and interactive web content.Bring web page to life</li>  
 <li><b>Python - face_recognition</b> -https://github.com/lilyarya/Face_Recognition_Login</li>
 <li><b>Python - pickle</b> - for storing serialized data</li>
+<li><b>Flask -</b> Flask is a micro framework with little to no dependencies on external libraries.It is used for developing web applications using python</li>
 <li><b>Heroku -</b> https://face-recognition-login-arya.herokuapp.com/</li>
 </ul>
 <strong>Note: </strong>While testing for no face and multiple face be in the frame before the camera start .
