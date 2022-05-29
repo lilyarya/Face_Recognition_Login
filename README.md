@@ -32,4 +32,4 @@
 <ul>
 <li><b>Homepage:</b> Go to link: https://face-recognition-login-arya.herokuapp.com/</li>  
 </ul>
-Please note: <i>.</i>
+For ppt of the web application: <i>https://www.canva.com/design/DAFBtI9y4Ng/eGsQQ34XUwZekkbVQ0ByYg/view?utm_content=DAFBtI9y4Ng&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1</i>
